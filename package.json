@@ -1,11 +1,11 @@
 {
   "name": "debug-namespace",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Namespacing for the debug module",
   "main": "debug-namespace.js",
   "scripts": {
     "test": "mocha test/",
-	"build": "coffee -c -b -o . --no-header debug-namespace.coffee"
+    "build": "coffee -c -b -o . --no-header debug-namespace.coffee"
   },
   "repository": {
     "type": "git",
